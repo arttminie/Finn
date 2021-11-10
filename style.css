@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@0,300;1,300&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+body{
+    background-color: #2CB3F3;
+}
+h1{ 
+    text-align: center;
+    margin-top: 10vh;
+    text-transform: capitalize;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+h2{
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    position:relative;
+    top: 6vh;
+    left: 28vw;
+    background-color: #ffffff;
+    width: 45vw;
+    height: 60vh; 
+    border-radius: 15vh 7vw 0 0; 
+    
+}
+.box-rosto{
+    background-color: #FFE1C9;
+    width: 36vw;
+    height: 48vh;
+    border-radius: 40vw;
+    position: absolute;
+    border-radius: 50%;
+    left: 58px;
+    top: 39px;
+}
+.box-olho{
+    background-color: #000000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    top: 15vh;
+    left: 13vw;
+}
+.box-olho2{
+    background-color: #000000;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: relative;
+    top: 9vh;
+    left: 28vw;
+}
+.formulário{
+     display: flex;
+     flex-direction: column;
+     width: 15vw;
+     position: absolute;
+     top: 26vh;
+     left: 10vw;
+}
+input{
+    height: 5vh;
+    border: #000000 solid 2px;
+}
+.button{
+    position: absolute;
+    top: 92vh;
+    left: 46vw;
+}
+button{
+    background-color: #55A603;
+    height: 7vh;
+    width: 10vw;
+    color: #B2F272;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    border-radius: 1vh;
+}
